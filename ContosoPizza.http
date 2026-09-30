@@ -21,16 +21,16 @@ Content-Type: application/json
 }
 
 ###
-PUT {{ContosoPizza_HostAddress}}/pizza/3
+PUT {{ContosoPizza_HostAddress}}/pizza/4
 Content-Type: application/json
 
 {
-    "id": 3,
+    "id": 4,
     "name": "Hawaiian",
     "isGlutenFree": false
 }
 
 ###
-DELETE {{ContosoPizza_HostAddress}}/pizza/3
+DELETE {{ContosoPizza_HostAddress}}/pizza/4
 
 ###
